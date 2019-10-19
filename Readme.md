@@ -10,6 +10,10 @@ Images available:
 
 `pgadmin4`
 
+Requirements:
+
+- Docker Desktop
+
 Steps:
 
 - Create your python virtual environment to work with. `python3 -m venv ${NAME_OF_YOUR VENV}`
@@ -19,7 +23,7 @@ Steps:
 - Set up you environments variables in the `.env` file.
 - Copy the docker related files to your project. `docker-compose.yml`, `.dockerignore` and `Dockerfile`
 - Modify image versions as needed.
-- Run with make commands available through the provided `Makefile`.
+- Run with make commands available through the provided `Makefile` as: `make build` for running the first time, then with `make run`
 
 NOTE on python docker image.
 

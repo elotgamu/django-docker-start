@@ -2,6 +2,9 @@
 build:
 	docker-compose up --build -d
 
+make-run:
+	docker-compose up
+
 db-make-migrations:
 	docker-compose exec django-app python manage.py makemigrations
 
